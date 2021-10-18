@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mainRow{
+    width: 375px;
+    height: 75px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 75px;;
+}
+
+.buttons{
+    margin: 0px;
+    padding: 0px;
+    width: 80px;
+    height: 75px;
+    background-color: azure;
+    border: solid;
+    border-radius: 100px;
+}
+
+#row1{
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topButtons{
+    margin: 0px;
+    padding: 0px;
+    width: 375px;
+    height: 180px;
+    background-color: white;
+    text-align:end
+}
+
+
+
+
+
